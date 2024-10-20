@@ -193,6 +193,33 @@ a {
 }
 
 
+
+.projetos-links {
+  display: flex;
+  height: 200px;
+  width: 300px;
+  align-items: center;
+  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  flex-direction: column;
+  margin: 30px auto; /* Define margens de 30px acima e abaixo, e centraliza horizontalmente */
+  border-width: 4px;
+  border-color: var(--color-branco);
+  border-style: solid;
+  border-radius: 30px;
+}
+
+.projetos-links .linkss {
+  margin-top: 20px;
+  font-family: Roboto;
+  font-size: 22px;
+}
+
+
+
+
+
+
+
 .botao-contato {
   background-color: var(--color-destaque);
   padding: 10px 40px;
